@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> 107102515 CV</title>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+		<?php
+			date_default_timezone_set('Asia/Taipei');
+			$datetime = date("H");
+			
+			if ($datetime < "12") {
+				echo "Good Morning";
+			} elseif ($datetime <"18") {
+				echo "Good Afternoon";
+			} else {
+				echo "Good Night";
+			}
+		?>
+		
+		<h1><b>107102515</b></h1>
+		<h2>Hi, I am <i>@tanyay2000</i></h2>
+		<hr>
+		<br>
+		<h2>About me</h2>
+		
+		<div>
+			<h3>Experiences</h3>
+			<ol>
+			<a href="https://www.ncu.edu.tw/" target="_blank"><img src="logo.gif" alt="NCU" width="100" height="50"></a>
+				<li><h4>Student Association</h4></li>
+					<ul>
+						<li>Member of Student Association of xx Department</li>
+						<li>Team Leader of Student Association of xx Department</li>
+					</ul>
+				<li><h4>Dance Competition</h4></li>
+					<ul>
+						<li>2018 6th</li>
+						<li>2019 <b>1st</b></li>
+						<li>2020 4th</li>
+					</ul>
+			</ol>
+		</div>
+		
+		<div>
+			<table>
+				<caption><i>Contact Me<i><caption>
+        
+				<thead>
+					<tr>
+						<th colspan="2">TeL</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Home</td><td>0123456789</td>
+					</tr>
+					<tr>
+						<td>Phone</td><td>0912345678</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<script>
+			alert("This is 107102515")
+		</script>
+	</body>
+</html>
